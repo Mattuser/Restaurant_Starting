@@ -7,5 +7,6 @@ namespace Restaurant_Starting.Models
         public int Id { get; set; }
         public string? Name { get; set; }
         public decimal Money { get; set; }
+  
     }
 }

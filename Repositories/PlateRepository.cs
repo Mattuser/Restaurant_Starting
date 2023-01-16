@@ -10,9 +10,9 @@ namespace Restaurant_Starting.Repositories
         {
             return DbContext.Plates;
         }
-        public IPlate GetById(int id)
+        public IPlate? GetById(int id)
         {
-            var plate = DbContext.Plates.FirstOrDefault(x=> x.Id == id);
+            var plate = DbContext.Plates.FirstOrDefault(x => x.Id == id);
             return plate;
         }
 
